@@ -32,7 +32,7 @@ public class Practice5DrawOvalView extends View {
 //        练习内容：使用 canvas.drawOval() 方法画椭圆
 
         Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        canvas.drawOval(100, 100, 200, 200, paint);
+        canvas.drawArc(200,200,700,500,0,360,true,paint);
 
     }
 }

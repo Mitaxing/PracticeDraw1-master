@@ -17,7 +17,7 @@ public class Practice10HistogramView extends View {
             contentHeight,
             rectWidth = 80, rectMargin, rectNumber = 7;
 
-    private String[] names = {"米汤", "星", "蛋哥", "杰哥", "芳哥", "陆超月", "刚哥"};
+    private String[] names = {"米汤", "星", "蛋哥", "杰哥", "芳哥", "超子", "刚哥"};
     private int[] progress = {80, 100, 50, 5, 35, 72, 33};
 
     private Paint paint = new Paint();
